@@ -1,0 +1,31 @@
+model_opts:
+  model: PIE_TFGRU
+  # obs_input_type: [local_box] 
+  # obs_input_type: [local_box, local_surround, box] 
+  obs_input_type: [local_box, local_surround, pose, traffic_light, sign, crosswalk, headpose, box, speed]  ##local_box, local_surround, pose, headpose, box, speed, TSC
+  # obs_input_type: [ped_id, box, image, TSC]  ##DrawBox must turn on
+  apply_class_weights: True
+  normalize_boxes: True
+  # generator: True  ##DrawBox must turn off
+  generator: False   ##DrawBox must turn on
+net_opts:
+  num_hidden_units: 256
+  global_pooling: avg
+  regularizer_val: 0.0001
+  cell_type: gru
+  backbone: vgg16
+exp_opts:
+  # datasets: [jaad_all,jaad_beh]   ##jaad_all, jaad_beh
+  # batch_size: [128, 128]
+  # epochs: [100, 100]
+  # lr: [0.00009, 0.00009]
+
+  datasets: [pie, jaad_all, jaad_beh]   ##jaad_all, jaad_beh
+  batch_size: [128, 128, 128]
+  epochs: [80, 70, 70]
+  lr: [0.0001, 0.0001, 0.0001]
+  # datasets: [jaad_all]   ##jaad_all, jaad_beh
+  # batch_size: [128]
+  # epochs: [90]
+  # lr: [0.0001]
+
