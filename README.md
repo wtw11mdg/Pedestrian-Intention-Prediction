@@ -2,7 +2,7 @@
 
 **Paper :  [T. W. Wang and S. -H. Lai, "Pedestrian Crossing Intention Prediction with Multi-Modal Transformer-Based Model," 2023 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)](https://ieeexplore.ieee.org/abstract/document/10317161/authors#authors)**
 
-\n
+/n
 
 ![image](https://github.com/user-attachments/assets/b473c363-59ea-4591-88b8-14744d5b0ddb)
 
