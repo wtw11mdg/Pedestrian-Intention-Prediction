@@ -1,8 +1,8 @@
 # Pedestrian-Intention-Prediction
-The project is based on the PIE and JAAD datasets and is validated against the benchmark standard.
-Paper: [I. Kotseruba, A. Rasouli, J.K. Tsotsos, Benchmark for evaluating pedestrian action prediction. WACV, 2021](https://openaccess.thecvf.com/content/WACV2021/papers/Kotseruba_Benchmark_for_Evaluating_Pedestrian_Action_Prediction_WACV_2021_paper.pdf)** (see [citation](#citation) information below).
+The project is based on the PIE and JAAD datasets and is validated against the benchmark standard.[citation](#citation)
 
-**Paper :  [T. W. Wang and S. -H. Lai, "Pedestrian Crossing Intention Prediction with Multi-Modal Transformer-Based Model," 2023 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)](https://ieeexplore.ieee.org/abstract/document/10317161/authors#authors)**
+If you are interested in the details of this project, please refer to the original paper.
+[T. W. Wang and S. -H. Lai, "Pedestrian Crossing Intention Prediction with Multi-Modal Transformer-Based Model," 2023 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)](https://ieeexplore.ieee.org/abstract/document/10317161/authors#authors)
 <br>
 
 ![image](https://github.com/user-attachments/assets/b473c363-59ea-4591-88b8-14744d5b0ddb)
@@ -26,7 +26,7 @@ python train_test.py -c config_files/PIE_TFGRU.yaml
 ## Citation
 
 According to the benchmark, this project is based on the code provided in the following benchmark.
-
+**Paper: [I. Kotseruba, A. Rasouli, J.K. Tsotsos, Benchmark for evaluating pedestrian action prediction. WACV, 2021](https://openaccess.thecvf.com/content/WACV2021/papers/Kotseruba_Benchmark_for_Evaluating_Pedestrian_Action_Prediction_WACV_2021_paper.pdf)**
 ```
 @inproceedings{kotseruba2021benchmark,
 	title={{Benchmark for Evaluating Pedestrian Action Prediction}},
