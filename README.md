@@ -29,14 +29,15 @@ According to the benchmark, this project is based on the code provided in the fo
 
 **Paper: [I. Kotseruba, A. Rasouli, J.K. Tsotsos, Benchmark for evaluating pedestrian action prediction. WACV, 2021](https://openaccess.thecvf.com/content/WACV2021/papers/Kotseruba_Benchmark_for_Evaluating_Pedestrian_Action_Prediction_WACV_2021_paper.pdf)**
 
-@inproceedings{kotseruba2021benchmark,
+%```
+%@inproceedings{kotseruba2021benchmark,
 	title={{Benchmark for Evaluating Pedestrian Action Prediction}},
 	author={Kotseruba, Iuliia and Rasouli, Amir and Tsotsos, John K},
 	booktitle={Proceedings of the IEEE Winter Conference on Applications of Computer Vision (WACV)},
 	pages={1258--1268},
 	year={2021}
-}
-
+%}
+%```
 
 - ATGC [1] 
 - C3D [2]
