@@ -1,5 +1,5 @@
 # Pedestrian-Intention-Prediction
-The project is based on the PIE and JAAD datasets and is validated against the [Benchmark for Evaluating Pedestrian Action Prediction](#citation) standard. 
+The project is based on the PIE and JAAD datasets and is validated against the standard of [Benchmark for Evaluating Pedestrian Action Prediction](#citation).
 
 If you are interested in the details of this project, please refer to the original paper.
 [T. W. Wang and S. -H. Lai, "Pedestrian Crossing Intention Prediction with Multi-Modal Transformer-Based Model," 2023 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)](https://ieeexplore.ieee.org/abstract/document/10317161/authors#authors)
