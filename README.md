@@ -1,4 +1,7 @@
 # Pedestrian-Intention-Prediction
+
+*** The code has not been refined and fully organized. For reference only. ***
+
 The project is based on the [PIE](https://github.com/aras62/PIE) and [JAAD](https://github.com/aras62/PIE) datasets and is validated against the standard of [Benchmark for Evaluating Pedestrian Action Prediction](#citation).
 
 If you are interested in the details of this project, please refer to the original paper: <br>
@@ -21,7 +24,7 @@ To train the model in this paper, run:
 ```
 python train_test.py -c config_files/PIE_TFGRU.yaml
 ```
-*** The code has not been refined and fully organized. For reference only. ***
+
 
 <a name="citation"></a>
 ## Citation
