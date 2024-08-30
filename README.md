@@ -21,6 +21,7 @@ To train the model in this paper, run:
 ```
 python train_test.py -c config_files/PIE_TFGRU.yaml
 ```
+*** The code has not been refined and fully organized. For reference only. ***
 
 <a name="citation"></a>
 ## Citation
